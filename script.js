@@ -1,23 +1,30 @@
-const first ="sara";
-console.log(first, typeof first);
-let output; 
-const nums =[1,4,19];
-output=nums;
-//number
-const age=90;
-console.log(age, typeof age);
+//TYPE COERSION
+let x;
+x=5*'5';        //changes this into a number
+x= Number(null);
+x= 5+true;
+x= 5+ undefined;
+console.log(x, typeof x);
 
-const person={
-    name:'Brad',
-    age:'30'
-};
 
-function sayHello(){
-    console.log('hello world');
-}
 
-output = sayHello;
+//MATH
+/*let x;
+x= 4-4;
+x='hello';
+x+=2;
+console.log(x);
 
-const id=Symbol('id');
-const n = 9999999999999999999999n;
-console.log(output, typeof output);
+
+//TYPECASTING
+/*let amount =0;
+//amount = parseInt(amount);
+//amount = +amount;
+//amount = Number(amount);
+//amount = amount.toString();
+//amount =String(amount);
+
+//change string to decimal
+//amount = Boolean(amount);
+console.log(amount, typeof amount);
+console.log('foo');*/
