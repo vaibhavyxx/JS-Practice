@@ -1,4 +1,5 @@
-//TYPE COERSION
+//DATE
+//Month starts from 0 to 11
 let x;
 let d = new Date(1989,1,22);
 //d = new Date('10/12/2011 12:30')
