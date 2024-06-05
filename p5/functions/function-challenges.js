@@ -14,3 +14,9 @@ console.log(minMax([1,2,3,4,5]));
     const area = (length, width) => console.log(`The area of rectange with a length of ${length} and a width of ${width} is ${length * width}`)
     area(10, 5);
 })();
+
+//ternary operator
+function getFee(isMember){
+    return isMember ? '$2.00' : '$10.00';   //after ? has true then false values
+}
+console.log(getFee(false));
