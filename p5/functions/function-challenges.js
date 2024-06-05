@@ -10,3 +10,7 @@ const minMax = number =>{
 console.log(minMax([1,2,3,4,5]));
 
 //continue at challenge 3 pls
+(function (length, width) {
+    const area = (length, width) => console.log(`The area of rectange with a length of ${length} and a width of ${width} is ${length * width}`)
+    area(10, 5);
+})();
